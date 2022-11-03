@@ -1,7 +1,13 @@
 package board;
 
 public class BoardCommentVO {
-	private int id, board_id;
+	private int id, board_id, no;
+	public int getNo() {
+		return no;
+	}
+	public void setNo(int no) {
+		this.no = no;
+	}
 	private String content, writer, name, writedate;
 	
 	public int getId() {
